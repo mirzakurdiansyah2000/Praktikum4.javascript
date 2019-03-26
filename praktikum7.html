@@ -1,0 +1,25 @@
+<html>
+    <head><title>P4 - Praktikum 10</title>
+    </head>
+    <body>
+        <p><script languange="JavaScript">
+            document.writeln("<pre>");
+            document.writeln("<h1>Struktur kontrol pemilihan if else</h1>");
+
+            var nilai = 65;
+            document.writeln('nilai anda ' + nilai);
+            if(nilai>=80) {
+                document.writeln('Grade A'); // && (AND) semua kondisi harus bernilai benar agar statmen dijalanka
+            }else if (nilai<80 && nilai>69){ // || (OR) salah satu kondisinya ada yang benar agar statmen dijaankan
+                document.writeln('Grade B');
+            }else if (nilai<70 && nilai>59){
+                document.writeln('Grade C');
+            }else if (nilai<60 && nilai>49){
+                document.writeln('Grade D');
+            }else if (nilai<50){
+                document.writeln('Grade E');
+            }
+            document.writeln("</pre>");
+            </script></p>
+    </body>
+</html>
